@@ -1,0 +1,12 @@
+{
+  "name": "claude-clock-bar",
+  "description": "A Claude Code mod that shows a clock and a work-hour timer above the prompt bar",
+  "owner": { "name": "Ryan Ary" },
+  "plugins": [
+    {
+      "name": "work-clock",
+      "source": "./",
+      "description": "Clock and work-hour band above the prompt: time worked, time left, a lunch break, and /clock for a big clock"
+    }
+  ]
+}
