@@ -1,0 +1,13 @@
+{
+  "name": "work-clock",
+  "version": "0.1.0",
+  "description": "A clock and work hour timer in a band above the prompt",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "workStart": { "type": "string", "title": "Work starts", "description": "24-hour time, like 08:00", "default": "08:00" },
+    "workEnd": { "type": "string", "title": "Work ends", "description": "24-hour time, like 17:00", "default": "17:00" },
+    "breakStart": { "type": "string", "title": "Break starts", "description": "24-hour time, like 12:00. Leave blank for no break", "default": "12:00" },
+    "breakEnd": { "type": "string", "title": "Break ends", "description": "24-hour time, like 13:00. Leave blank for no break", "default": "13:00" },
+    "skipWeekends": { "type": "boolean", "title": "Skip weekends", "description": "No work timer on Saturday and Sunday", "default": true }
+  }
+}
